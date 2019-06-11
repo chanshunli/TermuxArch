@@ -43,5 +43,6 @@ _GSA_ docs docsTermuxArch
 _GSA_ docs/imgs imgsTermuxArch
 _GSA_ gens gensTermuxArch
 _GSA_ scripts scriptsTermuxArch
+_GSA_ scripts/frags/dfa dfa
 
 #EOF
