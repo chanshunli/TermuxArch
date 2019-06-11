@@ -36,12 +36,12 @@ trap _SGSATRPSIGNAL_ HUP INT TERM
 trap _SGSATRPQUIT_ QUIT 
 
 _GSA_() {
-	(git submodule add https://github.com/$2 $1) || (echo ; echo "Cannot update $2: continuing...") 
+	(git submodule add https://github.com/sdrausty/$2 $1) || (echo ; echo "Cannot update $2: continuing...") 
 }
 
-_GSA_ docs sdrausty/docsTermuxArch
-_GSA_ docs/imgs sdrausty/imgsTermuxArch
-_GSA_ gens sdrausty/gensTermuxArch
-_GSA_ scripts sdrausty/scriptsTermuxArch
+_GSA_ docs docsTermuxArch
+_GSA_ docs/imgs imgsTermuxArch
+_GSA_ gens gensTermuxArch
+_GSA_ scripts scriptsTermuxArch
 
 #EOF
