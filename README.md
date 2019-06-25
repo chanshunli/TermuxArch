@@ -4,6 +4,12 @@ TermuxArch
 
 This Termux bash shell script will attempt to set up Arch Linux on Amazon Fire OS, Android and Chromebook using [Termux](https://termux.com).
 
+```bash
+pkg install proot
+bash setupTermuxArch.sh
+startarch
+```
+
 Install Arch Linux into a Termux PRoot container with [`bash setupTermuxArch.sh`](setupTermuxArch.sh). After succesfull installation start the container with `startarch` from the command line.
 
 See https://sdrausty.github.io/TermuxArch/docs/install for options how to run [`setupTermuxArch.sh`](https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh) on device.  
